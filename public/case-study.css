@@ -30,7 +30,6 @@ video {
 }
 
 .home-container {
-  width: 1440px;
   margin: 0;
 }
 
@@ -112,7 +111,7 @@ video {
 }
 
 .main-content {
-  justify-self: start;
+  /* justify-self: start; */
   grid-column-start: 9;
   grid-column-end: 23;
   padding-top: 4em;

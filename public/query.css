@@ -43,18 +43,35 @@
 }
 
 /* TABLET */
-@media (max-width: 900px) {
+@media (min-width: 480px) {
   .side-bar {
     display: none;
   }
 
   .main-content {
-    grid-column-start: 5;
-    grid-column-end: 26;
+    grid-column-start: 3;
+    grid-column-end: 28;
   }
 
   .hi-five-solution {
-    grid-column-start: 5;
-    grid-column-end: 26;
+    grid-column-start: 3;
+    grid-column-end: 28;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 900px) {
+  .side-bar {
+    display: block;
+  }
+
+  .main-content {
+    grid-column-start: 9;
+    grid-column-end: 23;
+  }
+
+  .hi-five-solution {
+    grid-column-start: 9;
+    grid-column-end: 23;
   }
 }

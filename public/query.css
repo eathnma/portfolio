@@ -1,0 +1,60 @@
+/* CASE STUDY QUERIES */
+
+/* PHONE */
+@media (max-width: 480px) {
+  /* load different image for mobile & tablet */
+
+  /* get rid of sidebar */
+  .side-bar {
+    display: none;
+  }
+
+  .main-content {
+    padding: 5%;
+    grid-column-start: 1;
+    grid-column-end: 30;
+  }
+
+  article {
+    padding: 6%;
+  }
+
+  .section-top {
+    padding: 6%;
+    display: block;
+  }
+
+  .section {
+    padding: 6%;
+    display: block;
+  }
+
+  .section-top h4 {
+    margin-bottom: 0.3em;
+  }
+
+  .section h4 {
+    margin-bottom: 0.3em;
+  }
+
+  .footer-bottom {
+    padding: 6%;
+  }
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .side-bar {
+    display: none;
+  }
+
+  .main-content {
+    grid-column-start: 5;
+    grid-column-end: 26;
+  }
+
+  .hi-five-solution {
+    grid-column-start: 5;
+    grid-column-end: 26;
+  }
+}

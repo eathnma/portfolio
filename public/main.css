@@ -1,0 +1,113 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+#cursor-text {
+  position: absolute;
+}
+
+/* container styling */
+.container {
+  margin: 2%;
+}
+
+.container-top {
+  position: absolute;
+  z-index: 100;
+}
+
+.container-bottom-left {
+  position: absolute;
+  bottom: 30px;
+  /* padding-top: 74vh; */
+  /* align-self: baseline; */
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.container-top-right {
+  position: absolute;
+  display: flex;
+  text-decoration: underline;
+  top: 2%;
+  right: 2%;
+  z-index: 1;
+}
+
+.resume-box {
+  display: flex;
+  align-items: baseline;
+}
+
+#project-box {
+  display: block;
+  text-align: center;
+  z-index: 0;
+}
+
+#project-box img {
+  width: 20em;
+  height: auto;
+}
+
+#image {
+  position: absolute;
+  z-index: 1000;
+}
+
+/* native text-styling for mainpage */
+p {
+  color: white;
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 0.75em;
+}
+
+#project-box h2 {
+  color: white;
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 1.125em;
+  margin-top: 0.375em;
+}
+
+#project-box h3 {
+  color: white;
+  font-family: New-Rail-Alphabet;
+  font-weight: 100;
+  font-size: 0.805em;
+  margin-top: 0.375em;
+}
+
+h4 {
+  color: white;
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.75em;
+  text-decoration: underline;
+}
+
+h5 {
+  color: white;
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+/* text styling for mainpage */
+.p-max-width {
+  max-width: 330px;
+  line-height: 1.5em;
+}
+
+/* if ya wanna animate the screen sliding up */
+/* https://www.youtube.com/watch?v=ergc889Jghc */

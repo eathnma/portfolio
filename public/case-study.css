@@ -1,0 +1,324 @@
+/* img styling  */
+body,
+html {
+  background: white;
+  /* max-width: 1440px; */
+}
+
+video {
+  height: auto;
+  width: 100%;
+  border-radius: 0.2em;
+}
+
+.icon-button {
+  display: flex;
+}
+
+.quote {
+  border-left: 4px solid black;
+  margin-bottom: 2em;
+  line-height: 1.4em;
+  padding-left: 0.5em;
+  font-family: Sentinel;
+  font-weight: 400;
+}
+
+.button-wrapper {
+  display: flex;
+  margin-top: 1.2em;
+}
+
+.home-container {
+  width: 1440px;
+  margin: 0;
+}
+
+.home-container p {
+  font-family: New-Rail-Alphabet;
+  font-size: 0.905em;
+  font-weight: 200;
+  line-height: 1.75em;
+  max-width: 32em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.home-container h1 {
+  font-family: Sentinel;
+  font-weight: 400;
+  font-size: 1.9em;
+}
+
+.home-container h4 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.864375em;
+  margin-bottom: 0.2em;
+}
+
+.home-container h5 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.84375em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.home-container h6 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 0.75625em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.side-bar {
+  grid-column-start: 3;
+  grid-column-end: 8;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  align-self: start;
+  padding-top: 5em;
+
+  /* display: flex; */
+  /* align-self: start; */
+}
+
+/* sidebar styling */
+.side-bar h2 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  color: #a1a1a1;
+  letter-spacing: -2%;
+}
+
+.side-bar h3 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.8em;
+  color: #a1a1a1;
+}
+
+.side-bar a {
+  text-decoration: none;
+}
+
+/* main content styling */
+.content {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+}
+
+.main-content {
+  justify-self: start;
+  grid-column-start: 9;
+  grid-column-end: 23;
+  padding-top: 4em;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+.content h1 {
+  font-family: Sentinel;
+  font-weight: normal;
+  font-size: 1.75em;
+  margin-bottom: 0.3em;
+}
+
+.content p {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 1em;
+  line-height: 1.8em;
+  letter-spacing: -0.5%;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.content h6 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.84375em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.content h4 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+/* footer styling */
+
+.footer {
+  padding: 2%;
+  color: #191927;
+}
+
+.section-top {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  align-items: start;
+  border-top: 1px solid rgba(226, 226, 226, 1);
+  border-bottom: 1px solid rgba(226, 226, 226, 1);
+  padding: 1.9em 0;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  align-items: start;
+  /* border-top: 1px solid rgba(226, 226, 226, 1); */
+  border-bottom: 1px solid rgba(226, 226, 226, 1);
+  padding: 1.9em 0;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.info-box {
+  display: flex;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10em;
+  padding-bottom: 1em;
+}
+
+/* text-styling for footer elements */
+
+.footer-bottom h2 {
+  font-family: New-Rail-Alphabet;
+  font-size: 0.988em;
+  font-weight: 200;
+}
+
+.footer-bottom h3 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.93em;
+  margin-right: 1.5em;
+}
+
+.section-top h4 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.9em;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+.section-top h5 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.9em;
+  color: #333333;
+  grid-column-start: 9;
+  grid-column-end: 23;
+}
+
+.section h4 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.9em;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+.section h5 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.9em;
+  color: #333333;
+  grid-column-start: 9;
+  grid-column-end: 23;
+  line-height: 1.8em;
+}
+
+.section div {
+  grid-column-start: 9;
+  grid-column-end: 23;
+}
+
+.section .grey {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.9em;
+  color: #999999;
+  margin-top: 0.4em;
+}
+
+/* page sfx */
+a {
+  color: black;
+  text-decoration: underline #999999;
+  text-underline-offset: 0.3em;
+}
+
+.button-wrapper a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+button {
+  padding: 0.9em;
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.85em;
+  background-color: white;
+  border: 1px solid #9c9c9c;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* case specific styling */
+/* WORKESTRA */
+.home {
+  height: 43em;
+  padding: 2%;
+  background-image: url("../public/assets/workestra/case-background.svg");
+  background-repeat: no-repeat;
+  border: 0px !important;
+  margin-bottom: 0em;
+}
+
+/* WHITE TEXT */
+.home p,
+.home h1,
+.home h5,
+.home h6 {
+  color: white;
+}
+
+/* HI-FIVE */
+.home-hi-five {
+  height: 43em;
+  background-color: #fafafb;
+  margin-bottom: 0em;
+  padding: 2%;
+
+  /* switch background image here */
+  background: url("../public/assets/hi-five/hi-five-cover.png") no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,28 @@
+.hi-five-background {
+  background-color: #fafafb;
+  /* follow old grid */
+  grid-column-start: 1;
+  grid-column-end: 31;
+
+  /* start new grid */
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+}
+
+.hi-five-solution {
+  margin-top: 4em;
+  grid-column-start: 9;
+  grid-column-end: 23;
+}
+
+#code-button {
+  height: 0.9em;
+  width: auto;
+  margin-right: 0.8em;
+}
+
+#play-button {
+  height: 1.3em;
+  width: auto;
+  margin-right: 0.9em;
+}

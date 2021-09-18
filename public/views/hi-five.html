@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!-- Hi! Fancy seeing you here (・◇・；). 
+    If ya wanna get in touch, email me at ethanmahc@gmail.com. -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+    <meta name="description" content="Ethan Ma's Web Portfolio">
+    <meta name="keywords"
+        content="UX Design, UX Designer, Student, Product Design, Product, Design, Interaction Design, Interaction, Design, Ethan, Ma, Ethan Ma, SFU, Simon Fraser University, SIAT, Interactive Arts and Technology">
+    <meta name="author" content="Ethan Ma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Up-Top!</title>
+    <link rel="icon" type="image/png" href="../assets/ethan-fav.png"/>
+
+    <!-- normalize css so it doesn't look wack -->
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+
+    <!-- case-study css -->
+    <link rel="stylesheet" type="text/css" href="../case-study.css">
+
+    <!-- independent case study css -->
+    <link rel="stylesheet" type="text/css" href="../hi-five.css">
+
+    <!-- queries for responsiveness -->
+    <link rel="stylesheet" type="text/css" href="../query.css">
+
+
+</head>
+
+<body>
+    <article class="home-hi-five">
+        <div class="home-container">
+            <h5 class="margin-bottom-lv32"> <a href="../../index.html">Ethan Ma</a></h5>
+            <div>
+                <h5 class="margin-bottom-lv2">INTERACTION EXPLORATION</h5>
+                <h1 class="margin-bottom-lv1">Up Top!</h1>
+                <p class="margin-bottom-lv4">Up Top! is a web experience that lets you high-five your 
+                    coworkers virtually. Using hand tracking software, the project aims to provide remote 
+                    teams with a playful way to celebrate the small wins in their workday.</p>
+
+                    <div class="button-wrapper margin-bottom-lv32">
+                       <a href="https://up-top.herokuapp.com/" target="_blank"><button class="margin-right-lv3"> <img id="play-button" class="icon-button" src="../assets/hi-five/play-btn.svg" alt="none">Play with the Prototype</button></a>
+                       <a href="https://github.com/eathnma/Remote-Work-Explorations" target="_blank"><button> <img id="code-button" class="icon-button" src="../assets/hi-five/_.svg" alt="none">View Code</button></a>
+                    </div>
+                                    
+                </div>
+
+                <div>
+                <h5 class="margin-bottom-lv0.5"> April 28th, 2021 </h5> 
+                <h5> ? minute read </h5>
+            </div>
+        </div>
+    </article>
+    
+    <div class="container">        
+        <article class="content">
+            <!-- put the body content here -->
+            <div class="side-bar">
+                <h3 id="black" class="margin-bottom-lv3">CONTENTS</h3>
+                <a href="#context"><h2 id="one" class="black">1. &nbsp; Context</h2></a>
+                <a href="#hi-five-background"> <h2 id="two">2. Solution</h2> </a>
+                <a href="#user-testing"><h2 id="three">3. User-Testing</h2> </a>
+                <a href="#moving-forward"><h2 id="four">4. Moving Forward</h2> </a>
+            </div>
+
+            <div class="main-content">
+                <h1 id="context">Context</h1>
+                <p class="margin-bottom-lv4">Up Top! is a playful exploration of how hand-gesture greetings could be reimagined online using computer vision and peer-to-peer web technology. Prototyped as a website, we envision the interaction as a built-in feature of a video-calling platform, such as Zoom or Google Meet.
+                    <br> <br>
+                    This project was created in the context of a directed study, focusing on exploring social interactions for the remote workplace through the creative code medium.</p>
+
+                <h2 class="quote">
+                    “How might we reduce social isolation during COVID-19 by creating an informal way for remote workers to connect throughout the workday? 
+                </h2>
+            </div>
+
+            <div class="hi-five-background">
+                <div id="hi-five-background" class="hi-five-solution">
+                    <h1 class="margin-bottom-lv2">Gimmie a High Five!</h1>
+                    <p class="margin-bottom-lv4">
+                    Here’s a video of Audrey and I demonstrating the interaction!</p>
+
+                    <video loop class="margin-bottom-lv16">
+                        <source src="../assets/hi-five/hi-five-cover.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video
+                    </video>
+
+                    <h6 class="margin-bottom-lv2">HOW TO USE UP-TOP!</h6>
+                    <h1>Step 1: Enter the Room</h1>
+                    <p class="margin-bottom-lv4">When users open Up Top!, they are first asked to enter a name to let others know who's there. To invite a friend or coworker to the room, users can share a link to the website.</p>
+                    <video loop class="margin-bottom-lv16">
+                        <source src="../assets/hi-five/step1.mp4">
+                        Your browser does not support HTML5 video
+                    </video>
+
+                    <h1>Step 2: Raise your hand</h1>
+                    <p class="margin-bottom-lv4">For our prototype, we used Handtrack.js to detect the user's hand movements in the webcam. The hand’s position is then tracked and mapped to the hand on screen.</p>
+
+                    <video loop class="margin-bottom-lv16">
+                        <source src="../assets/hi-five/step2.mp4">
+                        Your browser does not support HTML5 video
+                    </video>
+
+                    <h1>Step 3: Go for the High Five!</h1>
+                    <p class="margin-bottom-lv4">Once two people are in the room, users can move their hands towards each other to give a high five. The website will respond by loading a random GIF and will play the song "Celebration" for as long as the two hands are touching.</p>
+                    <video loop class="margin-bottom-lv16">
+                        <source src="../assets/hi-five/step3.mp4">
+                        Your browser does not support HTML5 video
+                    </video>
+
+                </div>  
+
+            </div>
+
+            <div class="main-content">
+                <h1 id="user-testing">User-Testing</h1>
+                <p class="margin-bottom-lv8">As this was an experimental interaction, we were unsure 
+                    how remote-workers would react. To get feedback on the interaction, we tested 
+                    the prototype with a small group, including four product designers, one game developer,
+                    and an HR assistant. Here are our main takeaways:</p>
+
+                <h4 class="margin-bottom-lv1">Too intimate for work</h4>
+                <p class="margin-bottom-lv4">While the virtual high-five feels more personal than a 
+                    "good job," half of our users found the experience too intimate for work. 
+                    One participant explained that because they and their high-five partner had to hold 
+                    their hands in place in order to see the celebratory feedback, the interaction felt
+                    more like a handhold than a traditional high five.
+                    <h2 class="quote">
+                        “ We’re just gently caressing each other’s hands.” 
+                    </h2>
+
+                <h4 class="margin-bottom-lv1">Inefficient, but intentional</h4>
+                <p class="margin-bottom-lv6">The high five would be work-appropriate only if it were more 
+                    efficient, citing awkwardness and time as reasons not to use the current interaction. 
+                    However, users liked that the interaction challenged them to be more intentional about 
+                    their movements. These users felt that Up Top! would be a fun experience to share at a 
+                    work social.</p>
+                    <h2 class="quote">
+                        "If it worked smoothly, I could see myself using it at work on team calls or one-on-ones."
+                    </h2>
+
+                <h4 class="margin-bottom-lv1">Fun with embodied interactions</h4>
+                <p class="margin-bottom-lv6">Overall, users agreed that the current interaction may not be 
+                    appropriate for a busy workday, but it was a fun and novel interaction nonetheless. 
+                    In this way, the virtual high-five was successful in sparking joy and helping users 
+                    feel more connected to the person on the other side.</p>
+                </p>
+                <h2 class="quote">
+                    "I don't know if this would be efficient for my workplace but it’s fun."
+                </h2>
+
+                <h1 id="moving-forward"class="margin-top-lv8">Moving Forward</h1>
+                <p>Oftentimes, remote work feels stressful and rushed, with little time for socialization. 
+                    With our interaction, we aimed to create an activity that people could bond over, 
+                    making online work feel less isolating. 
+                    <br><br>
+                    Through the user-interviews, we think our interaction is not workplace ready, 
+                    but we are thrilled that remote-workers expressed enthusiasm in our experiment, 
+                    and would see themselves using this within the workday. To make this feasible, 
+                    there are interaction and technical aspects that need to be revisited, 
+                    such as improving the intentionality of the high five, as well as boosting the 
+                    performance of the application. Overall, because we received such positive feedback, 
+                    this experiment was a success in our books.
+                     </p>
+            </div>
+
+        </article>
+
+        <footer id="test" class="footer margin-top-lv16">
+            <div class="section-top">
+                <h4>Context</h4>
+                <h5>IAT 487 Directed Study - 5 Weeks</h5>
+            </div>
+
+            <div class="section">
+                <h4>Collaborators </h4>
+                <h5> <a href="https://www.audreychow.com">Audrey Chow</a>, <a href="https://www.sfu.ca/siat/people/research-faculty/carman-neustaedter.html">Carman Neustaedter</a></h5>
+                
+            </div>
+
+            <div class="section">
+                <h4>Tools</h4>
+                <h5>HTML/CSS/JS, Node.js, Handtrack.js, Paper.js, Illustrator</h5>
+            </div>
+
+            <div class="section">
+                <h4>Project Role</h4>
+                <div>
+                    <h5>Interaction Design, Development</h5>
+                    <h5 class="grey">
+                        I developed the backend using Node.JS, which included handling socket data, translating data to the hand, and detecting collisions when the hands touched. I also played a large part in the interaction design, by informing what was possible on a technical scale. 
+                        <br><br>
+                        This project taught me to explore inputs that exist beyond the keyboard. Video and audio can greatly change the feel of an interaction and can make a bland, everyday interaction feel special.
+
+                    </h5>
+                </div>
+            </div>
+
+    
+            <div class="footer-bottom">
+                <div class="info-box">
+                    <a href="mailto:ethanmahc@gmail.com"><h3>Email</h3></a>
+                    <a href="https://www.sfu.ca/~ethanm/resume_2020.pdf"><h3>Resume</h3></a>
+                    <a href="https://www.linkedin.com/in/eathnma/"><h3>Linkedin</h3></a>
+                </div>
+                <h2>Next Project: <a href="">Workestra</a> ➚</h2>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!-- JS for Video behaviour -->
+     <script type="text/javascript" src="../js/video.js"></script>
+    <script>
+   
+    // reveal content
+    ScrollReveal().reveal('.content');
+    ScrollReveal().reveal('.footer');
+
+    // CONTENT CHANGES
+    // get variables from the context bar
+    var one = document.getElementById("one");
+    var two = document.getElementById("two");
+    var three = document.getElementById("three");
+    var four = document.getElementById("four");
+
+    // check scroll position of website & return number
+    window.addEventListener("scroll", () => {
+        console.log(window.scrollY);
+        // 1
+        if (window.scrollY < 1000) {
+            one.style.color = "black";
+        } else {
+           one.style.color = "#A1A1A1";
+        }
+        //2
+        if(window.scrollY > 1000 && window.scrollY < 3650){
+            two.style.color = "black";
+        } else{
+            two.style.color = "#A1A1A1";
+        }
+        //3
+        if(window.scrollY > 3650 && window.scrollY < 4620){
+            three.style.color = "black";
+        } else{
+            three.style.color = "#A1A1A1";
+        }
+        //4
+
+        if(window.scrollY > 4620){
+            four.style.color = "black";
+        } else{
+            four.style.color = "#A1A1A1";
+        }
+    });
+
+    </script>
+</body>
+</html>

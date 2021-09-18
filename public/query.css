@@ -9,8 +9,16 @@
     display: none;
   }
 
+  .home-hi-five {
+    background: none;
+  }
+
   .main-content {
-    padding: 5%;
+    grid-column-start: 1;
+    grid-column-end: 30;
+  }
+
+  .hi-five-solution {
     grid-column-start: 1;
     grid-column-end: 30;
   }
@@ -55,6 +63,12 @@
 
   .hi-five-solution {
     grid-column-start: 3;
+    grid-column-end: 28;
+  }
+
+  .section h5,
+  .section div {
+    grid-column-start: 9;
     grid-column-end: 28;
   }
 }

@@ -1,3 +1,18 @@
+.home-hi-five {
+  height: 43em;
+  background-color: #fafafb;
+  margin-bottom: 0em;
+  padding: 2%;
+
+  /* switch background image here */
+  background: url("../public/assets/hi-five/hi-five-cover.png") no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .hi-five-background {
   background-color: #fafafb;
   /* follow old grid */

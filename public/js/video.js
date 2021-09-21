@@ -1,6 +1,15 @@
 // grab all video elements
-const video = document.querySelectorAll("video");
-// loop through all the videos
+var video = document.querySelectorAll("video");
+
+video.onmouseenter = function () {
+  mouseEnter();
+};
+
+function mouseEnter() {
+  console.log("mouse has entered");
+}
+
+// loop through all the videos onclick
 for (let i = 0; i < video.length; i++) {
   video[i].addEventListener("click", function () {
     console.log(video[i]);

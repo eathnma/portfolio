@@ -9,6 +9,7 @@ video {
   height: auto;
   width: 100%;
   border-radius: 0.2em;
+  /* position: absolute; */
 }
 
 .icon-button {
@@ -46,6 +47,7 @@ video {
   font-family: Sentinel;
   font-weight: 400;
   font-size: 1.9em;
+  max-width: 15em;
 }
 
 .home-container h4 {
@@ -127,7 +129,7 @@ video {
   font-family: Sentinel;
   font-weight: normal;
   font-size: 1.75em;
-  margin-bottom: 0.3em;
+  /* margin-bottom: 0.3em; */
 }
 
 .content p {

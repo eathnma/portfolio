@@ -18,7 +18,7 @@
     grid-column-end: 30;
   }
 
-  .hi-five-solution {
+  .hi-five-solution .workestra-solution {
     grid-column-start: 1;
     grid-column-end: 30;
   }
@@ -65,8 +65,12 @@
     grid-column-start: 3;
     grid-column-end: 28;
   }
+  .workestra-solution {
+    grid-column-start: 3;
+    grid-column-end: 28;
+  }
 
-  .section h5,
+  .work .section h5,
   .section div {
     grid-column-start: 9;
     grid-column-end: 28;
@@ -85,6 +89,11 @@
   }
 
   .hi-five-solution {
+    grid-column-start: 9;
+    grid-column-end: 23;
+  }
+
+  .workestra-solution {
     grid-column-start: 9;
     grid-column-end: 23;
   }

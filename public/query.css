@@ -13,18 +13,31 @@
     background: none;
   }
 
+  .workestra-query {
+    background: url("../public/assets/workestra/case-background.svg");
+  }
+
+  .home-container {
+    padding: 5%;
+  }
+
   .main-content {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 30;
   }
 
-  .hi-five-solution .workestra-solution {
-    grid-column-start: 1;
+  .main-content-big {
+    grid-column-start: 2;
+    grid-column-end: 30;
+  }
+
+  #solution {
+    grid-column-start: 2;
     grid-column-end: 30;
   }
 
   article {
-    padding: 6%;
+    /* padding: 6%; */
   }
 
   .section-top {
@@ -61,11 +74,12 @@
     grid-column-end: 28;
   }
 
-  .hi-five-solution {
+  .main-content-big {
     grid-column-start: 3;
     grid-column-end: 28;
   }
-  .workestra-solution {
+
+  #solution {
     grid-column-start: 3;
     grid-column-end: 28;
   }
@@ -88,12 +102,12 @@
     grid-column-end: 23;
   }
 
-  .hi-five-solution {
-    grid-column-start: 9;
-    grid-column-end: 23;
+  .main-content-big {
+    grid-column-start: 6;
+    grid-column-end: 26;
   }
 
-  .workestra-solution {
+  #solution {
     grid-column-start: 9;
     grid-column-end: 23;
   }

@@ -40,8 +40,8 @@
 .home-workestra {
   /* padding: 2%; */
 
-  background: url("../public/assets/workestra/hero-image.png") no-repeat 0 0
-    fixed;
+  background: url("../public/assets/workestra/hero-image.png") no-repeat center
+    center;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -184,6 +184,11 @@ button:hover {
 
 .button-wrapper img {
   margin-right: 0.8em;
+}
+
+#oneButton {
+  color: black;
+  background: rgba(240, 240, 240, 1);
 }
 
 /* LINES */

@@ -24,6 +24,15 @@ video {
   font-weight: 400;
 }
 
+.img-caption {
+  text-align: center;
+  font-family: MaisonNeue;
+  font-weight: 400;
+  font-size: 0.8125em;
+  line-height: 1.9em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .button-wrapper {
   display: flex;
   margin-top: 1.2em;
@@ -35,7 +44,7 @@ video {
 
 .home-container p {
   font-family: New-Rail-Alphabet;
-  font-size: 0.905em;
+  font-size: 0.91em;
   font-weight: 200;
   line-height: 1.75em;
   max-width: 32em;
@@ -113,15 +122,22 @@ video {
 
 .main-content {
   /* justify-self: start; */
+  padding: 2%;
   grid-column-start: 9;
   grid-column-end: 23;
   padding-top: 4em;
 }
 
+.main-content-big {
+  padding: 2%;
+  grid-column-start: 6;
+  grid-column-end: 26;
+}
+
 .content img {
   width: 100%;
   height: auto;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
 .content h1 {
@@ -135,7 +151,7 @@ video {
   font-family: New-Rail-Alphabet;
   font-weight: 200;
   font-size: 1em;
-  line-height: 1.8em;
+  line-height: 1.85em;
   letter-spacing: -0.5%;
   color: rgba(0, 0, 0, 0.75);
 }
@@ -150,7 +166,7 @@ video {
 .content h4 {
   font-family: New-Rail-Alphabet;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 /* footer styling */
@@ -282,6 +298,25 @@ button {
   display: flex;
   align-items: center;
   text-decoration: none;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  padding: none;
+}
+
+.btn-group button {
+  background-color: rgba(240, 240, 240, 1);
+  border: none;
+  font-size: 0.9em;
+  padding: 1em 2em;
+  display: flex;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-group:active {
+  color: red;
 }
 
 button:hover {

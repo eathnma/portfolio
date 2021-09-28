@@ -51,6 +51,19 @@
   src: url("../public/assets/fonts/Sentinel-Black.otf");
 }
 
+/* MAISON NEUE MONO */
+
+@font-face {
+  font-family: MaisonNeue;
+  font-weight: 400;
+  src: url("../public/assets/fonts/MaisonMonoTRIAL-Regular.otf");
+}
+
+@font-face {
+  font-family: MaisonNeue;
+  font-weight: 500;
+  src: url("../public/assets/fonts/MaisonMonoTRIAL-Medium.otf");
+}
 /* Individual Styling of Elements */
 * {
   margin: 0;
@@ -162,7 +175,7 @@ html {
 }
 
 .margin-top-lv05 {
-  margin-top: 0.1875em;
+  margin-top: 0.2em;
 }
 
 .margin-top-lv1 {

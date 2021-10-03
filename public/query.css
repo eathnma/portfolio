@@ -5,8 +5,9 @@
   /* HOMEPAGE */
 
   #main-body {
-    position: relative;
+    position: initial;
   }
+
   #myVideo {
     display: none;
   }

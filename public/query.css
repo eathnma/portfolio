@@ -1,7 +1,7 @@
 /* CASE STUDY QUERIES */
 
 /* PHONE */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   /* HOMEPAGE */
 
   #main-body {
@@ -109,12 +109,12 @@
     display: none;
   }
 
-  .container {
+  /* .container {
     width: 100vw;
     height: 100vh;
     margin-left: 4em;
     margin-top: 4em;
-  }
+  } */
 
   .content-block {
     display: grid;

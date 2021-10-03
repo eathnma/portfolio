@@ -6,6 +6,8 @@
 
   #main-body {
     position: initial;
+    display: block;
+    padding-left: 1em;
   }
 
   #myVideo {
@@ -14,6 +16,7 @@
   .second-row {
     display: none;
   }
+
   #main-container {
     width: 100vw;
     height: 100vh;
@@ -111,6 +114,10 @@
     height: 100vh;
     margin-left: 4em;
     margin-top: 4em;
+  }
+
+  .content-block {
+    display: grid;
   }
 
   /* CASE STUDY */

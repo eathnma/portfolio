@@ -96,7 +96,7 @@ html {
   border: 0;
   scroll-behavior: smooth;
   max-width: auto;
-  background-color: #222222;
+  background-color: #121212;
 
   /* tablet size uwu */
   margin: 0 auto !important;
@@ -124,6 +124,13 @@ html {
 .margin-left-lv5 {
   margin-left: 3em;
 }
+.margin-left-lv16 {
+  margin-left: 6em;
+}
+
+.margin-left-lv32 {
+  margin-left: 12em;
+}
 
 .margin-right-lv1 {
   margin-right: 0.375em;
@@ -136,6 +143,12 @@ html {
 }
 .margin-right-lv5 {
   margin-right: 3em;
+}
+.margin-right-lv16 {
+  margin-right: 6em;
+}
+.margin-right-lv32 {
+  margin-right: 12em;
 }
 
 .margin-bottom-lv05 {
@@ -200,6 +213,10 @@ html {
 
 .margin-top-lv8 {
   margin-top: 3em;
+}
+
+.margin-top-lv10 {
+  margin-top: 5em;
 }
 
 .margin-top-lv16 {

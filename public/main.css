@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.hover-cursor {
+  cursor: pointer;
+}
+
 #myVideo {
   object-fit: cover;
   position: fixed;

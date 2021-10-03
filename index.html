@@ -24,6 +24,10 @@
     <!-- normalize css so it doesn't look wack -->
     <link rel="stylesheet" type="text/css" href="./public/normalize.css">
 
+    <!-- queries for responsiveness -->
+    <link rel="stylesheet" type="text/css" href="public/query.css">
+
+
 </head>
 
 <body id="main-body">
@@ -32,59 +36,77 @@
         <source type="video/mp4"> 
     </video>
 
-    <div class="container">
+    <div id="main-container" class="container">
         <div class="content-block">
             <h3>Ethan Ma</h3>
         </div>
     
         <div class="content-block margin-top-lv05">
             <h5>Design & Development</h5>
-            <h5 id="white">Type</h5>
+            <h5 id="white" class="second-row">Type</h5>
         </div>
         
         <div id="workestra" class="content-block margin-top-lv10 margin-bottom-lv8">
             <a href="public/views/workestra.html">
             <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1">2021</h5>
                 <h1>Workestra- A Remote Work Experiment <sup>2021</sup></h1>
                 <p class="margin-top-lv2">Exploring Informal Conversation with Music</p>
             </div>
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/workestra/Main.mp4" type="video/mp4">
+            </video>
         </a>
-            <h5>Interaction Design</h5>
+               
+                <!-- <img src="public/assets/main/workestra-hd.mp4" alt="workestra hehe"> -->
+            <h5 class="second-row">Interaction Design</h5>
         </div>
 
         <div id="gleam" class="content-block margin-bottom-lv8">
             <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1" style="color: rgba(255, 255, 255, 0.2)">2021</h5>
                 <h1><span class="strike">Gleam — A Visual Assistant for Self Driving Vehicles</span><sup class="strike-color">2021</sup></h1>
                 <p class="strike-color margin-top-lv2">In Progress : <span id="date"></span></p>
             </div>
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/main/gleam-20.mp4" type="video/mp4">
+            </video>
 
-            <h5 class="strike-color">Interaction Design</h5>
+            <h5 class="strike-color second-row">Interaction Design</h5>
         </div>
 
         <div id="up-top" class="content-block margin-bottom-lv8">
             <a href="public/views/hi-five.html">
             <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1">2021</h5>
                 <h1>Up-Top! - Experimental Interactions in Code <sup>2021</sup></h1>
                 <p class="margin-top-lv2">Coding an Interactive High Five</p>
             </div>
+
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/hi-five/step2.mp4" type="video/mp4">
+            </video>
         </a>
 
-            <h5>Development</h5>
+            <h5 class="second-row">Development</h5>
         </div>
 
         <div id="moonboard" class="content-block margin-bottom-lv8">
             <a href="public/views/moonboard.html">
             <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1">2020</h5>
                 <h1>Moonboard- A Redesign for a Mobile Climbing App <sup>2020</sup></h1>
                 <p class="margin-top-lv2">Reimagining the Navigation Process for a Rock Climbing App</p>
             </div>
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/moonboard/how it works.mp4" type="video/mp4">
+            </video>
         </a>
-            <h5>Product Design</h5>
+            <h5 class="second-row">Product Design</h5>
         </div>
 
-        <div class="content-block margin-top-lv16">
+        <div class="content-block margin-top-lv16 margin-bottom-lv5">
             <div class="flex">
-
                 <a href="mailto:ethanmahc@gmail.com">
                     <h5 class="underline">Say Hello!</h5>
                 </a>
@@ -98,7 +120,7 @@
                 </a>
 
             </div>
-            <h5>Vancouver, BC</h5>
+            <h5 class="second-row">Vancouver, BC</h5>
         </div>
         
     </div>
@@ -137,8 +159,7 @@
         });
         
         
-        
-
+    
         // set js to countdown for project due
         var countDownDate = new Date ("Oct 17, 2021 15:37:25").getTime();
 

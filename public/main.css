@@ -30,6 +30,11 @@
   position: fixed;
 }
 
+.mobile-video {
+  width: 90vw;
+  height: auto;
+}
+
 /* container styling */
 .content-block {
   display: grid;
@@ -64,14 +69,14 @@ p {
   font-family: New-Rail-Alphabet;
   font-weight: 200;
   font-size: 0.875em;
-  color: #535353;
+  color: #858585;
 }
 
 sup {
   font-family: New-Rail-Alphabet;
   font-weight: 300;
   font-size: 0.5075em;
-  color: #535353;
+  color: #858585;
   margin-left: 2px;
 }
 

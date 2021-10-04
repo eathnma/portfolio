@@ -1,0 +1,146 @@
+.flex {
+  display: flex;
+  padding-bottom: 3em;
+}
+
+.hover-cursor {
+  cursor: pointer;
+}
+
+#myVideo {
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  min-width: 100%;
+  min-height: 100%;
+  margin: auto;
+  z-index: -1;
+}
+
+#main-container {
+  padding-top: 3em;
+}
+
+#white {
+  color: white;
+}
+
+.container {
+  margin: auto;
+  max-height: 100%;
+  overflow: auto;
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+#main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.mobile-video {
+  width: 90vw;
+  height: auto;
+}
+
+/* container styling */
+.content-block {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35em minmax(0, 1fr);
+}
+
+.first-row {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.second-row {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+footer {
+  display: flex;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.strike-color {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* native text-styling for mainpage */
+p {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.875em;
+  color: #858585;
+}
+
+sup {
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 0.5075em;
+  color: #858585;
+  margin-left: 2px;
+}
+
+h1 {
+  font-family: Sentinel;
+  font-weight: 100;
+  font-size: 1.3125em;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+h3 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 0.75em;
+  color: white;
+}
+
+h5 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  font-size: 0.825em;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+a {
+  color: white;
+  text-decoration: underline WHITE;
+}
+
+.underline {
+  text-decoration: underline 0.1em rgba(255, 255, 255, 0.5);
+  text-underline-offset: 5px;
+  cursor: pointer;
+}
+
+a:visited {
+  color: white;
+}
+
+/* text styling for mainpage */
+.p-max-width {
+  max-width: 330px;
+  line-height: 1.5em;
+}
+
+/* if ya wanna animate the screen sliding up */
+/* https://www.youtube.com/watch?v=ergc889Jghc */

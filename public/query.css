@@ -1,0 +1,182 @@
+/* CASE STUDY QUERIES */
+
+/* PHONE */
+@media (max-width: 500px) {
+  /* HOMEPAGE */
+
+  #main-body {
+    position: initial;
+    display: block;
+    padding-left: 1em;
+  }
+
+  #myVideo {
+    display: none;
+  }
+  .second-row {
+    display: none;
+  }
+
+  #main-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 1em;
+  }
+
+  .content-block {
+    display: block;
+  }
+
+  .sup-replace {
+    display: block;
+  }
+
+  sup {
+    display: none;
+  }
+
+  /* CASE STUDY */
+  /* get rid of sidebar */
+  .side-bar {
+    display: none;
+  }
+
+  .home-hi-five {
+    background: none;
+  }
+
+  .workestra-query {
+    background: url("../public/assets/workestra/case-background.svg");
+  }
+
+  .home-container {
+    padding: 5%;
+  }
+
+  .main-content {
+    grid-column-start: 2;
+    grid-column-end: 30;
+  }
+
+  .main-content-big {
+    grid-column-start: 2;
+    grid-column-end: 30;
+  }
+
+  #solution {
+    grid-column-start: 2;
+    grid-column-end: 30;
+  }
+
+  article {
+    /* padding: 6%; */
+  }
+
+  .section-top {
+    padding: 6%;
+    display: block;
+  }
+
+  .section {
+    padding: 6%;
+    display: block;
+  }
+
+  .section-top h4 {
+    margin-bottom: 0.3em;
+  }
+
+  .section h4 {
+    margin-bottom: 0.3em;
+  }
+
+  .footer-bottom {
+    padding: 6%;
+  }
+}
+
+/* TABLET */
+@media (min-width: 480px) {
+  .mobile-video {
+    display: none;
+  }
+  /* HOMEPAGE */
+  .sup-replace {
+    display: none;
+  }
+
+  .second-row {
+    display: none;
+  }
+
+  /* .container {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 4em;
+    margin-top: 4em;
+  } */
+
+  .content-block {
+    display: grid;
+  }
+
+  /* CASE STUDY */
+  .side-bar {
+    display: none;
+  }
+
+  .main-content {
+    grid-column-start: 3;
+    grid-column-end: 28;
+  }
+
+  .main-content-big {
+    grid-column-start: 3;
+    grid-column-end: 28;
+  }
+
+  #solution {
+    grid-column-start: 3;
+    grid-column-end: 28;
+  }
+
+  .work .section h5,
+  .section div {
+    grid-column-start: 9;
+    grid-column-end: 28;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 900px) {
+  /* HOMEPAGE */
+  .second-row {
+    display: grid;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  /* CASE STUDY */
+  .side-bar {
+    display: block;
+  }
+
+  .main-content {
+    grid-column-start: 9;
+    grid-column-end: 23;
+  }
+
+  .main-content-big {
+    grid-column-start: 6;
+    grid-column-end: 26;
+  }
+
+  #solution {
+    grid-column-start: 9;
+    grid-column-end: 23;
+  }
+}

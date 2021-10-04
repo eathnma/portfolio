@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- Hi! Fancy seeing you here (・◇・；). 
+    If ya wanna get in touch, email me at ethanmahc@gmail.com. -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="Ethan Ma's Web Portfolio">
+    <meta name="keywords"
+        content="UX Design, UX Designer, Student, Product Design, Product, Design, Interaction Design, Interaction, Design, Ethan, Ma, Ethan Ma, SFU, Simon Fraser University, SIAT, Interactive Arts and Technology">
+    <meta name="author" content="Ethan Ma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>eeeeeeeeeee</title>
+    <link rel="icon" type="image/png" href="public/assets/ethan-fav.png" />
+
+    <!-- main page css -->
+    <link rel="stylesheet" type="text/css" href="./public/main.css">
+
+    <!-- normalize css so it doesn't look wack -->
+    <link rel="stylesheet" type="text/css" href="./public/normalize.css">
+
+    <!-- queries for responsiveness -->
+    <link rel="stylesheet" type="text/css" href="public/query.css">
+
+
+</head>
+
+<body id="main-body">
+
+    <video autoplay muted loop id="myVideo">
+        <source type="video/mp4"> 
+    </video>
+
+    <div class="container">
+        <div class="content-block" style="padding-top: 3em">
+            <h3 >Ethan Ma</h3>
+        </div>
+    
+        <div class="content-block margin-top-lv05">
+            <h5>Design & Development</h5>
+            <h5 id="white" class="second-row">Type</h5>
+        </div>
+        
+        <div id="workestra" class="content-block margin-top-lv10 margin-bottom-lv8">
+            <a href="public/views/workestra.html">
+            <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1">2021</h5>
+                <h1>Workestra- A Remote Work Experiment <sup>2021</sup></h1>
+                <p class="margin-top-lv2">Exploring Informal Conversation with Music</p>
+            </div>
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/workestra/Main.mp4" type="video/mp4">
+            </video>
+        </a>
+               
+                <!-- <img src="public/assets/main/workestra-hd.mp4" alt="workestra hehe"> -->
+            <h5 class="second-row">Interaction Design</h5>
+        </div>
+
+        <div id="gleam" class="content-block margin-bottom-lv8">
+            <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1" style="color: rgba(255, 255, 255, 0.2)">2021</h5>
+                <h1><span class="strike">Gleam — A Visual Assistant for Self Driving Vehicles</span><sup class="strike-color">2021</sup></h1>
+                <p class="strike-color margin-top-lv2">In Progress : <span id="date"></span></p>
+            </div>
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/main/gleam-20.mp4" type="video/mp4">
+            </video>
+
+            <h5 class="strike-color second-row">Interaction Design</h5>
+        </div>
+
+        <div id="up-top" class="content-block margin-bottom-lv8">
+            <a href="public/views/hi-five.html">
+            <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1">2021</h5>
+                <h1>Up-Top! - Experimental Interactions in Code <sup>2021</sup></h1>
+                <p class="margin-top-lv2">Coding an Interactive High Five</p>
+            </div>
+
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/hi-five/step2.mp4" type="video/mp4">
+            </video>
+        </a>
+
+            <h5 class="second-row">Development</h5>
+        </div>
+
+        <div id="moonboard" class="content-block margin-bottom-lv8">
+            <a href="">
+            <div class="hover-cursor">
+                <h5 class="sup-replace margin-bottom-lv1">2020</h5>
+                <h1>Moonboard- A Redesign for a Mobile Climbing App <sup>2020</sup></h1>
+                <p class="margin-top-lv2">Reimagining the Navigation Process for a Rock Climbing App</p>
+            </div>
+            <video autoplay muted loop class="mobile-video margin-top-lv6">
+                <source src="./public/assets/moonboard/how-it-works.mp4" type="video/mp4">
+            </video>
+        </a>
+            <h5 class="second-row">Product Design</h5>
+        </div>
+
+        <div class="content-block margin-top-lv16 margin-bottom-lv5">
+            <div class="flex">
+                <a href="mailto:ethanmahc@gmail.com">
+                    <h5 class="underline">Say Hello!</h5>
+                </a>
+
+                <a href="https://www.sfu.ca/~ethanm/resume_2020.pdf" target="_blank">
+                    <h5 class="margin-left-lv4 underline">Resume</h5>
+                </a>
+
+                <a href="https://www.linkedin.com/in/eathnma/" target="_blank">
+                    <h5 class="margin-left-lv4 underline">Linkedin</h5>
+                </a>
+
+            </div>
+            <h5 class="second-row">Vancouver, BC</h5>
+        </div>
+        
+    </div>
+
+    <script>
+
+        var grabVideo = document.getElementById("myVideo");
+
+        document.getElementById("workestra").addEventListener("mouseenter", function(){
+            grabVideo.src = "public/assets/main/workestra-20-hd-loop.mp4";
+        });
+        document.getElementById("workestra").addEventListener("mouseleave", function(){
+            grabVideo.src = " ";
+        });
+
+        document.getElementById("gleam").addEventListener("mouseenter", function(){
+            grabVideo.src = "public/assets/main/gleam-20.mp4";
+        });
+        document.getElementById("gleam").addEventListener("mouseleave", function(){
+            grabVideo.src = " ";
+        });
+
+        document.getElementById("up-top").addEventListener("mouseenter", function(){
+            grabVideo.src = "public/assets/main/hi-five-20-hires.mp4";
+        });
+        document.getElementById("up-top").addEventListener("mouseleave", function(){
+            grabVideo.src = " ";
+        });
+        
+        //hover to play videos Moonboard
+        document.getElementById("moonboard").addEventListener("mouseenter", function(){
+            grabVideo.src = "public/assets/main/moonboard-15.mp4";
+        });
+        document.getElementById("moonboard").addEventListener("mouseleave", function(){
+            grabVideo.src = " ";
+        });
+        
+        
+    
+        // set js to countdown for project due
+        var countDownDate = new Date ("Oct 17, 2021 15:37:25").getTime();
+
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            console.log(distance);
+
+             // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("date").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    
+            // if expired, write something
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+
+        },1000);
+    </script>
+    <!-- JS for timestamp on bottom left -->
+    <!-- <script type="text/javascript" src="public/js/time.js"></script> -->
+
+    <!-- JS for anything mouse related -->
+    <!-- <script type="text/javascript" src="public/js/mouse.js"> </script> -->
+</body>
+
+</html>

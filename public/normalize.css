@@ -1,0 +1,275 @@
+/* Typefaces range from 100-400 in font weight. */
+/* NEW RAIL ALPHABET */
+@font-face {
+  font-family: New-Rail-Alphabet;
+  font-weight: 100;
+  src: url("../public/assets/fonts/A2-Type_New_Rail_Alphabet_White.ttf");
+}
+
+@font-face {
+  font-family: New-Rail-Alphabet;
+  font-weight: 200;
+  src: url("../public/assets/fonts/NewRailAlphabet-Light.otf");
+}
+
+@font-face {
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  src: url("../public/assets/fonts/A2-Type_New_Rail_Alphabet_Medium.ttf");
+}
+
+@font-face {
+  font-family: New-Rail-Alphabet;
+  font-weight: 400;
+  src: url("../public/assets/fonts/NewRailAlphabet-Bold.otf");
+}
+
+/* CHARTER */
+@font-face {
+  font-family: MyCharter;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/assets/fonts/Charter\ Regular.otf");
+}
+
+/* SENTINEL */
+@font-face {
+  font-family: Sentinel;
+  font-weight: 300;
+  src: url("../public/assets/fonts/Sentinel-Light.otf");
+}
+
+@font-face {
+  font-family: Sentinel;
+  font-weight: 400;
+  src: url("../public/assets/fonts/Sentinel-Book.otf");
+}
+
+@font-face {
+  font-family: Sentinel;
+  font-weight: 900;
+  src: url("../public/assets/fonts/Sentinel-Black.otf");
+}
+
+/* MAISON NEUE MONO */
+
+@font-face {
+  font-family: MaisonNeue;
+  font-weight: 400;
+  src: url("../public/assets/fonts/MaisonMonoTRIAL-Regular.otf");
+}
+
+@font-face {
+  font-family: MaisonNeue;
+  font-weight: 500;
+  src: url("../public/assets/fonts/MaisonMonoTRIAL-Medium.otf");
+}
+/* Individual Styling of Elements */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  /* cursor: default; */
+  /* cursor: url(assets/cursor.svg), auto; */
+
+  /* code for smoothing out the typeface */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #fcfc00;
+}
+
+::selection {
+  background: #fcfc00;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  scroll-behavior: smooth;
+  max-width: auto;
+  background-color: #121212;
+
+  /* tablet size uwu */
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.inline {
+  display: flex;
+  gap: 0.8em;
+}
+
+/* spacing normalize */
+.margin-left-lv1 {
+  margin-left: 0.375em;
+}
+.margin-left-lv2 {
+  margin-left: 0.75em;
+}
+.margin-left-lv3 {
+  margin-left: 1.125em;
+}
+.margin-left-lv4 {
+  margin-left: 2.25em;
+}
+.margin-left-lv5 {
+  margin-left: 3em;
+}
+.margin-left-lv16 {
+  margin-left: 6em;
+}
+
+.margin-left-lv32 {
+  margin-left: 12em;
+}
+
+.margin-right-lv1 {
+  margin-right: 0.375em;
+}
+.margin-right-lv2 {
+  margin-right: 0.75em;
+}
+.margin-right-lv3 {
+  margin-right: 1.125em;
+}
+.margin-right-lv5 {
+  margin-right: 3em;
+}
+.margin-right-lv16 {
+  margin-right: 6em;
+}
+.margin-right-lv32 {
+  margin-right: 12em;
+}
+
+.margin-bottom-lv05 {
+  margin-bottom: 0.2em;
+}
+
+.margin-bottom-lv1 {
+  margin-bottom: 0.375em;
+}
+
+.margin-bottom-lv2 {
+  margin-bottom: 0.75em;
+}
+
+.margin-bottom-lv3 {
+  margin-bottom: 1.125em;
+}
+
+.margin-bottom-lv4 {
+  margin-bottom: 1.5em;
+}
+
+.margin-bottom-lv6 {
+  margin-bottom: 2em;
+}
+
+.margin-bottom-lv8 {
+  margin-bottom: 3em;
+}
+
+.margin-bottom-lv16 {
+  margin-bottom: 6em;
+}
+
+.margin-bottom-lv32 {
+  margin-bottom: 12em;
+}
+
+.margin-top-lv05 {
+  margin-top: 0.2em;
+}
+
+.margin-top-lv1 {
+  margin-top: 0.375em;
+}
+
+.margin-top-lv2 {
+  margin-top: 0.75em;
+}
+
+.margin-top-lv3 {
+  margin-top: 1.125em;
+}
+
+.margin-top-lv4 {
+  margin-top: 1.5em;
+}
+
+.margin-top-lv6 {
+  margin-top: 2.2em;
+}
+
+.margin-top-lv8 {
+  margin-top: 3em;
+}
+
+.margin-top-lv10 {
+  margin-top: 5em;
+}
+
+.margin-top-lv16 {
+  margin-top: 6em;
+}
+
+.margin-top-lv32 {
+  margin-top: 9em;
+}
+
+.margin-top-lv64 {
+  margin-top: 18em;
+}
+
+/* line height class */
+.line-height-lv2 {
+  line-height: 2.5vh;
+}
+
+/* borders */
+.border-top {
+  border-top: 1px solid black;
+}
+
+.black-line {
+  margin: 0 4em;
+  border-top: solid black 1px;
+  opacity: 0.6;
+}
+
+.grey-line {
+  margin: 0 4em;
+  border-top: solid black 1px;
+  opacity: 0.2;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.grey {
+  color: #a1a1a1;
+}
+
+#black {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!-- Hi! Fancy seeing you here (・◇・；). 
+    If ya wanna get in touch, email me at ethanmahc@gmail.com. -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+    <meta name="description" content="Ethan Ma's Web Portfolio">
+    <meta name="keywords"
+        content="UX Design, UX Designer, Student, Product Design, Product, Design, Interaction Design, Interaction, Design, Ethan, Ma, Ethan Ma, SFU, Simon Fraser University, SIAT, Interactive Arts and Technology">
+    <meta name="author" content="Ethan Ma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moonboard</title>
+    <link rel="icon" type="image/png" href="../assets/ethan-fav.png" />
+
+    <!-- normalize css so it doesn't look wack -->
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+
+    <!-- case-study css -->
+    <link rel="stylesheet" type="text/css" href="../case-study.css">
+
+     <!-- independent css -->
+     <link rel="stylesheet" type="text/css" href="../moonboard.css">
+
+    <!-- queries for responsiveness -->
+    <link rel="stylesheet" type="text/css" href="../query.css">
+
+</head>
+
+<body>
+
+    <article class="home-moonboard">
+        <div class="home-container workestra-query">
+            <h6 class="margin-bottom-lv32"> <a href="../../index.html" id="white">Ethan Ma</a></h6>
+            <div>
+                <h5 id="white" class="margin-bottom-lv2">UX CASE STUDY</h5>
+                <h1 id="white" class="margin-bottom-lv1">Moonboard</h1>
+                <p id="white06" class="margin-bottom-lv2 white08">Workestra is a desktop and mobile app that allows remote coworkers to see and hear 
+                        each other’s keyboard and mouse clicks. Workestra is an exploration of how teams can be more present with each other over 
+                        distance while bringing joy into the remote workday.</p>
+                    
+                        <div class="button-wrapper margin-bottom-lv32">
+                        <a href="../assets/pdf/workestra-pres.pdf" target="_blank" ><button class="margin-right-lv3"> <img id="slide-button" src="../assets/workestra/deck-icon.svg" alt="none">View Slidedeck</button></a>
+                        <a href="../assets/pdf/workestra-research-report.pdf" target="_blank"> <button><img id="research-button" src="../assets/workestra/slide-icon.svg" alt="none">Read Research Report</button></a>
+                    </div>
+                </div>
+
+                <div class="margin-bottom-lv2">
+                    <h5 id="white08" class="margin-bottom-lv05"> December 31st, 2020 </h5> 
+                    <h5 id="white08" > 7 minute read </h5>
+                </div>
+        </div>
+    </article>
+    
+    <div class="container">        
+        <article class="content">
+            <!-- put the body content here -->
+            <div class="side-bar">
+                <h3 id="contents" class="margin-bottom-lv3 black">CONTENTS</h3>
+                <a href="#context"><h2 id="one" class="black">1. &nbsp; Context</h2></a>
+                <a href="#workestra-solution"> <h2 id="two">2. Solution</h2> </a>
+                <a href="#process"><h2 id="three">3. Process</h2> </a>
+                <a href="#reflection"><h2 id="four">4. Reflection</h2> </a>
+            </div>
+
+            <div class="main-content margin-top-lv8">
+                <h1 id="context" class="margin-bottom-lv1">Context</h1>
+                <p class="margin-bottom-lv4">This project was a thirteen-week Directed Study supervised under <a href="https://carmster.com" target="_blank">Carman Neustaedter</a>, 
+                    taking a deep dive into the informal conversation habits of knowledge workers in North America. 
+                    Within the project, our team conducted a literature review and user interviews to ultimately build a 
+                    research report documenting COVID-19’s impact on project teams. This report informed our solution — 
+                    Workestra, a new interaction for remote teams with the aim to reduce social isolation throughout the workday. </p>
+                <!-- <img src="../assets/workestra/01.png" alt="workestra"> -->
+            </div>
+
+            <div id="moonboard-solution" class="moonboard-background">
+                <div id="solution" class="moonboard-solution">
+                    <h6 class="margin-bottom-lv2">SOLUTION</h6>
+                    <h1 class="margin-bottom-lv3">Title One</h1>
+                    <p class="margin-bottom-lv4">.....</p>
+                        
+                    <div class="video-wrapper" onclick="videoClick(this)">
+                        <video loop class="abs margin-bottom-lv16">
+                            <source src="../assets/moonboard/how-it-works.mp4">
+                            Your browser does not support HTML5 video
+                        </video>
+                        <img class="play-button" src="../assets/white-play-button.svg" alt="white-play-button">
+                    </div>   
+                    
+                    <!-- <video autoplay id="border" class="abs margin-bottom-lv16">
+                        <source src="../assets/moonboard/alpha-test3.mp4">
+                        Your browser does not support HTML5 video
+                    </video> -->
+                    
+                    
+                        
+                    <h1 class="margin-bottom-lv3">Title Two</h1>
+                    <div class="video-wrapper" onclick="videoClick(this)">
+                        <video loop class="abs margin-bottom-lv16">
+                            <source src="../assets/moonboard/add.mp4">
+                            Your browser does not support HTML5 video
+                        </video>
+                        <img class="play-button" src="../assets/white-play-button.svg" alt="white-play-button">
+                    </div>     
+                    
+                    <h1 class="margin-bottom-lv3">Title Three</h1>
+                    <div class="video-wrapper" onclick="videoClick(this)">
+                        <video loop class="abs margin-bottom-lv16">
+                            <source src="../assets/moonboard/complete.mp4">
+                            Your browser does not support HTML5 video
+                        </video>
+                        <img class="play-button" src="../assets/white-play-button.svg" alt="white-play-button">
+                    </div>      
+
+                </div>
+            </div>        
+
+            <div id="reflection" class="main-content">
+                <h1 class="margin-bottom-lv1">Reflection</h1>
+                <p class="margin-bottom-lv6">
+                    
+                    This problem space afforded exploration through many facets of remote work due to new problems, presenting fruitful 
+                    opportunities for intervention. We were debating on continuing this idea and bringing it to life, but due to a security 
+                    issue with keylogging, we decided against it.
+                    <br><br>
+                    Although there were instances of struggle and frustration, we are extraordinarily proud of our creation. 
+                    After completing the project, many of us showed Workestra to friends, family, and working professionals, 
+                    and were blown away by the need for something like this in the workplace. 
+                </p>
+                <div class="img-caption">
+                    <img class="margin-bottom-lv3" src="../assets/workestra/artisinal_friends.jpeg" alt="artisinal_friends?">
+                    This was our team! Right to left: Ethan, Eliza, Brendan, Audrey.
+                </div>  
+            </div>
+
+        </article>
+
+        <!-- class footer for scroll-reveal -->
+        <footer id="test" class="footer margin-top-lv16">
+            <div class="section-top">
+                <h4>Context</h4>
+                <h5 id="white08">Passion Project - 6 Weeks</h5>
+            </div>
+
+            <div class="section">
+                <h4>Collaborators </h4>
+                <h5 id="white08" > <a id="white08" href="https://www.audreychow.com" target="_blank">Audrey Chow</a></h5>
+                
+            </div>
+
+            <div class="section">
+                <h4>Tools</h4>
+                <h5 id="white08">Figma, Principle, Premiere Pro</h5>
+            </div>
+
+            <div class="section">
+                <h4>Project Role</h4>
+                <div>
+                    <h5 id="white08">Interaction Design, User Research, Prototyping</h5>
+                    <h5 class="grey" class="margin-top-lv1">
+                        I co-led the interaction design, and brought to life the 
+                        interaction with a mix of prototyping tools, After Effects, Premiere Pro, 
+                        and Audacity. User Research was conducted by the whole team, but I specifically 
+                        focused on researching and understanding the importance of informal conversation. 
+                        I pulled key insights from both interviews and the literature 
+                        review that ended up informing the final design decisions.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="info-box">
+                    <a href="mailto:ethanmahc@gmail.com" target="_blank"><h3>Email</h3></a>
+                    <a href="https://www.sfu.ca/~ethanm/resume_2020.pdf" target="_blank"><h3>Resume</h3></a>
+                    <a href="https://www.linkedin.com/in/eathnma/" target="_blank"><h3>Linkedin</h3></a>
+                </div>
+                <h2>Next: <a id="white08" href="../views/hi-five.html">Up-Top!</a> ➚</h2>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!-- JS for Video behaviour -->
+     <script src="../js/video.js"></script>
+
+    <script>
+    
+    // CONTENT CHANGES
+    // get variables from the context bar
+    var contents = document.getElementById("contents");
+    var one = document.getElementById("one");
+    var two = document.getElementById("two");
+    var three = document.getElementById("three");
+    var four = document.getElementById("four");
+
+    // check scroll position of website & return number
+    window.addEventListener("scroll", () => {
+        console.log(window.scrollY);
+        // 1
+        if (window.scrollY < 2500) {
+            console.log("switch content!");
+            one.style.color = "black";
+        } else {
+           one.style.color = "grey";
+        }
+        //2
+        if(window.scrollY > 2500 && window.scrollY < 5900){
+            contents.style.color = "white";
+            two.style.color = "white";
+        } else{
+            two.style.color = "grey";
+            contents.style.color = "grey";
+        }
+        //3
+        if(window.scrollY > 5900 && window.scrollY < 13925){
+            three.style.color = "black";
+        } else{
+            three.style.color = "grey";
+        }
+        //4
+        if(window.scrollY > 13925){
+            four.style.color = "black";
+        } else{
+            four.style.color = "grey";
+        }
+    });
+
+
+  
+
+    </script>
+</body>
+
+</html>

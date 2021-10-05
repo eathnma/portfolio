@@ -10,8 +10,23 @@
   background-size: cover; */
 }
 
+#mono {
+  margin-top: 1em;
+  text-align: center;
+  font-family: MaisonNeue;
+  font-weight: 400;
+  font-size: 0.8125em;
+  line-height: 1.9em;
+  color: white;
+}
+
+#ethan-climbing {
+  height: 50em;
+  width: auto;
+}
+
 #border {
-  border-radius: 4.1em;
+  border-radius: 1.5em;
 }
 
 .home-container {
@@ -20,7 +35,7 @@
 
 .moonboard-background {
   /* padding: 2%; */
-  background-color: #191927;
+  background-color: #0d1524;
   /* follow old grid */
   grid-column-start: 1;
   grid-column-end: 31;
@@ -35,6 +50,11 @@
   margin-top: 4em;
   grid-column-start: 9;
   grid-column-end: 23;
+}
+
+.two-mobile {
+  display: flex;
+  gap: 20px;
 }
 
 .moonboard-background p {

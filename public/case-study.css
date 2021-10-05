@@ -364,6 +364,21 @@ button:hover {
   z-index: 999;
 }
 
+.play-button-mobile {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* width: 100%; */
+  text-align: center;
+  margin-bottom: 0;
+  width: 3.5em !important;
+  height: 3.5em !important;
+  margin: 0 !important;
+  z-index: 999;
+}
+
 .play {
   font-size: 50px;
   cursor: pointer;

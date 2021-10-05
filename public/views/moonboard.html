@@ -38,14 +38,10 @@
             <div>
                 <h5 id="white" class="margin-bottom-lv2">UX CASE STUDY</h5>
                 <h1 id="white" class="margin-bottom-lv1">Moonboard</h1>
-                <p id="white06" class="margin-bottom-lv2 white08">Workestra is a desktop and mobile app that allows remote coworkers to see and hear 
+                <p id="white06" class="margin-bottom-lv32 white08">Workestra is a desktop and mobile app that allows remote coworkers to see and hear 
                         each other’s keyboard and mouse clicks. Workestra is an exploration of how teams can be more present with each other over 
                         distance while bringing joy into the remote workday.</p>
                     
-                        <div class="button-wrapper margin-bottom-lv32">
-                        <a href="../assets/pdf/workestra-pres.pdf" target="_blank" ><button class="margin-right-lv3"> <img id="slide-button" src="../assets/workestra/deck-icon.svg" alt="none">View Slidedeck</button></a>
-                        <a href="../assets/pdf/workestra-research-report.pdf" target="_blank"> <button><img id="research-button" src="../assets/workestra/slide-icon.svg" alt="none">Read Research Report</button></a>
-                    </div>
                 </div>
 
                 <div class="margin-bottom-lv2">
@@ -68,12 +64,23 @@
 
             <div class="main-content margin-top-lv8">
                 <h1 id="context" class="margin-bottom-lv1">Context</h1>
-                <p class="margin-bottom-lv4">This project was a thirteen-week Directed Study supervised under <a href="https://carmster.com" target="_blank">Carman Neustaedter</a>, 
-                    taking a deep dive into the informal conversation habits of knowledge workers in North America. 
-                    Within the project, our team conducted a literature review and user interviews to ultimately build a 
-                    research report documenting COVID-19’s impact on project teams. This report informed our solution — 
-                    Workestra, a new interaction for remote teams with the aim to reduce social isolation throughout the workday. </p>
-                <!-- <img src="../assets/workestra/01.png" alt="workestra"> -->
+                <p class="margin-bottom-lv4">I created this project with Audrey Chow, as a exercise to improve in interaction design. 
+                    Our project focuses on aligning and opening up opportunities for elite climbers to access the board. 
+                    This interaction design project was completed as a four week sprint, with an additional two weeks to refine 
+                    and polish the prototype. </p>
+
+                <h4 class="margin-bottom-lv1">What is a Moonboard?</h4>
+                <p class="margin-bottom-lv6">Each wall is set up with identical LED holds and connects to a mobile app, which gives users the ability to 
+                    browse problems, log their completed climbs, and compare their performance against friends and professional 
+                    athletes. All of the problems are set by users on the app, and reviewed by other climbers for a mutually agreed 
+                    difficulty level.</p>
+
+                <div>
+                    <video loop autoplay>
+                        <source src="../assets/moonboard/context-gif.mp4">
+                    </video>
+                    <h3 id="mono" style="color: black;">From amateur to world class, climbers use the Moonboard to train their strength and power endurance. </h3>
+                </div>
             </div>
 
             <div id="moonboard-solution" class="moonboard-background">
@@ -85,7 +92,7 @@
 
                     <div class="main-content-big">
                         <div class="video-wrapper" onclick="videoClick(this)">
-                            <video loop class="margin-bottom-lv8">
+                            <video loop muted class="margin-bottom-lv8">
                                 <source src="../assets/moonboard/how-it-works.mp4">
                                 Your browser does not support HTML5 video
                             </video>
@@ -101,7 +108,7 @@
                         <div class="two-mobile margin-bottom-lv16">
                             <div>
                                 <div class="video-wrapper" onclick="videoClick(this)">
-                                    <video loop id="border">
+                                    <video loop muted id="border">
                                         <source src="../assets/moonboard/prototypes/discover-bad.mp4">
                                         Your browser does not support HTML5 video
                                     </video>
@@ -114,7 +121,7 @@
                         
                             <div>
                                 <div class="video-wrapper" onclick="videoClick(this)">
-                                    <video loop id="border">
+                                    <video loop muted id="border">
                                         <source src="../assets/moonboard/prototypes/discover-good.mp4">
                                         Your browser does not support HTML5 video
                                     </video>
@@ -131,7 +138,7 @@
                     
                     <div class="main-content-big">
                         <div class="video-wrapper" onclick="videoClick(this)">
-                            <video loop class="margin-bottom-lv16">
+                            <video loop muted class="margin-bottom-lv16">
                                 <source src="../assets/moonboard/add.mp4">
                                 Your browser does not support HTML5 video
                             </video>
@@ -143,7 +150,7 @@
                         <div class="two-mobile margin-bottom-lv16">
                             <div>
                                 <div class="video-wrapper" onclick="videoClick(this)">
-                                    <video loop id="border">
+                                    <video loop muted id="border">
                                         <source src="../assets/moonboard/prototypes/save-bad.mp4">
                                         Your browser does not support HTML5 video
                                     </video>
@@ -156,7 +163,7 @@
                         
                             <div>
                                 <div class="video-wrapper" onclick="videoClick(this)">
-                                    <video loop id="border">
+                                    <video loop muted id="border">
                                         <source src="../assets/moonboard/prototypes/save-good.mp4">
                                         Your browser does not support HTML5 video
                                     </video>
@@ -173,7 +180,7 @@
                         </div>
                         <div class="main-content-big">
                             <div class="video-wrapper" onclick="videoClick(this)">
-                                <video loop class="margin-bottom-lv16">
+                                <video loop muted class="margin-bottom-lv16">
                                     <source src="../assets/moonboard/complete.mp4">
                                     Your browser does not support HTML5 video
                                 </video>
@@ -185,7 +192,7 @@
                             <div class="two-mobile margin-bottom-lv16">
                                 <div>
                                     <div class="video-wrapper" onclick="videoClick(this)">
-                                        <video loop id="border">
+                                        <video loop muted id="border">
                                             <source src="../assets/moonboard/prototypes/log-bad.mp4">
                                             Your browser does not support HTML5 video
                                         </video>
@@ -198,7 +205,7 @@
                             
                                 <div>
                                     <div class="video-wrapper" onclick="videoClick(this)">
-                                        <video loop id="border">
+                                        <video loop muted id="border">
                                             <source src="../assets/moonboard/prototypes/log-good.mp4">
                                             Your browser does not support HTML5 video
                                         </video>
@@ -226,7 +233,7 @@
                 </p>
                 <div class="img-caption">
                     <div class="video-wrapper" onclick="videoClick(this)">
-                        <video loop id="ethan-climbing" class="margin-top-lv3 margin-bottom-lv16">
+                        <video loop muted id="ethan-climbing" class="margin-top-lv3 margin-bottom-lv16">
                             <source src="../assets/moonboard/ethan-climbing.mp4">
                             Your browser does not support HTML5 video
                         </video>

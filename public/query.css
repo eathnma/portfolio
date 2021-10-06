@@ -49,6 +49,10 @@
     background: url("../public/assets/workestra/case-background.svg");
   }
 
+  .btn-group button {
+    padding: 0;
+  }
+
   .home-container {
     padding: 5%;
   }

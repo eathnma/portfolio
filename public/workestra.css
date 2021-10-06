@@ -40,9 +40,9 @@
 .home-workestra {
   /* padding: 2%; */
 
-  background: url("../public/assets/workestra/hero-image.png") no-repeat center
-    center;
+  background: url("../public/assets/workestra/hero-image.png") center center;
   background-color: black;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -30,10 +30,9 @@
 
 </head>
 
-<body>
-
+<body class="moonboard-body">
     <article class="home-moonboard">
-        <div class="home-container workestra-query">
+        <div class="home-container">
             <h6 class="margin-bottom-lv32"> <a href="../../index.html" id="white">Ethan Ma</a></h6>
             <div>
                 <h5 id="white" class="margin-bottom-lv2">UX CASE STUDY</h5>
@@ -303,7 +302,7 @@
     var one = document.getElementById("one");
     var two = document.getElementById("two");
     var three = document.getElementById("three");
-    var four = document.getElementById("four");
+    // var four = document.getElementById("four");
 
     // check scroll position of website & return number
     window.addEventListener("scroll", () => {
@@ -330,11 +329,7 @@
             three.style.color = "grey";
         }
         //4
-        if(window.scrollY > 13925){
-            four.style.color = "black";
-        } else{
-            four.style.color = "grey";
-        }
+     
     });
 
 

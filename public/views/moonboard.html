@@ -36,16 +36,15 @@
             <h6 class="margin-bottom-lv32"> <a href="../../index.html" id="white">Ethan Ma</a></h6>
             <div>
                 <h5 id="white" class="margin-bottom-lv2">UX CASE STUDY</h5>
-                <h1 id="white" class="margin-bottom-lv1">Moonboard</h1>
-                <p id="white06" class="margin-bottom-lv32 white08">Workestra is a desktop and mobile app that allows remote coworkers to see and hear 
-                        each other’s keyboard and mouse clicks. Workestra is an exploration of how teams can be more present with each other over 
-                        distance while bringing joy into the remote workday. fuckASDFDJASLKFJADS;FJALSDJFLDASJFLAJFLA</p>
+                <h1 id="white" class="margin-bottom-lv1">Moonboard - A Redesign for a Mobile Climbing App </h1>
+                <p id="white06" class="margin-bottom-lv32 white08">Our interaction and visual redesign of the Moonboard mobile app aims to facilitate problem discovery, 
+                    enrich training, and build community for the purpose to help advanced climbers train alongside a global community.  </p>
                     
                 </div>
 
                 <div class="margin-bottom-lv2">
-                    <h5 id="white08" class="margin-bottom-lv05"> December 31st, 2020 </h5> 
-                    <h5 id="white08" > 7 minute read </h5>
+                    <h5 id="white08" class="margin-bottom-lv05"> Jan 27th, 2020 </h5> 
+                    <h5 id="white08" > 5 minute read </h5>
                 </div>
         </div>
     </article>
@@ -62,24 +61,39 @@
             </div>
 
             <div class="main-content margin-top-lv8">
-                <h1 id="context" class="margin-bottom-lv1">Context</h1>
-                <p class="margin-bottom-lv8">I created this project with Audrey Chow, as a exercise to improve in interaction design. 
-                    Our project focuses on aligning and opening up opportunities for elite climbers to access the board. 
-                    This interaction design project was completed as a four week sprint, with an additional two weeks to refine 
-                    and polish the prototype. </p>
-
-                <h4 class="margin-bottom-lv1">What is a Moonboard?</h4>
+                <h1 id="context" class="margin-bottom-lv1">What is a Moonboard?</h1>
+        
                 <p class="margin-bottom-lv3">Each wall is set up with identical LED holds and connects to a mobile app, which gives users the ability to 
                     browse problems, log their completed climbs, and compare their performance against friends and professional 
                     athletes. All of the problems are set by users on the app and reviewed by other climbers for a mutually agreed 
                     difficulty level.</p>
 
-                <div class="margin-bottom-lv8">
+                <div class="margin-bottom-lv16">
                     <video loop autoplay>
                         <source src="../assets/moonboard/context-gif.mp4">
                     </video>
                     <h3 id="mono" style="color: black;">From amateur to world-class, a global community of climbers use the Moonboard to train their strength and power endurance.</h3>
                 </div>
+
+                <h1 class="margin-bottom-lv1">Problem</h1>
+                <p class="margin-bottom-lv3">
+                    When the Moonboard was first released, the training apparatus dominated the climbing scene. 
+                    However, due to the recent growth of the sport, other types of training boards such as Kilterboard and Tension Board have started to overtake 
+                    Moonboard in social popularity. This is due to Kilter and Tension's strong social media presence, with climbers having the ability to upload 
+                    and view videos on the board’s mobile apps. 
+                </p>
+                <img class="margin-bottom-lv3" src="../assets/moonboard/classic.png" alt="classic">
+                
+                <p> Compared to the other training boards, Moonboard’s mobile app is outdated, with new and experienced climbers even struggling 
+                    to navigate the basics of the app. Without the core functionality working, Moonboard cannot even begin to compete in social 
+                    media against its competitors.
+                </p>
+                <h2 class="quote margin-top-lv4">
+                    “It’s a good tool, but when I re-opened the app I had no idea where to find problems.”                
+                </h2>
+                <p class="margin-bottom-lv8">
+                    From insights pulled from our user interviews, we built an experience design strategy around three key objectives: facilitating problem discovery, enriching training, and building community. The redesigned app features a simplified navigation and filtering system based on feedback from new and experienced users. Additionally, we created a new design language to represent the stoke of the community 🤙.
+                </p>
             </div>
 
             <div id="moonboard-solution" class="moonboard-background">
@@ -175,7 +189,7 @@
                             <b>2.</b> In the original app, climbers have two choices when clicking on the “+” icon at the 
                             bottom of the navigation. Climbers either can save a climb to their list or logbook. 
                             To a new user, the distinction between the two is confusing, hence our decision to separate 
-                            the two into two different buttons.
+                            them into different buttons.
                             </p>
 
                         <div class="two-mobile margin-bottom-lv16">
@@ -397,14 +411,14 @@
     window.addEventListener("scroll", () => {
         console.log(window.scrollY);
         // 1
-        if (window.scrollY < 2500) {
+        if (window.scrollY < 2402) {
             console.log("switch content!");
             one.style.color = "black";
         } else {
            one.style.color = "grey";
         }
         //2
-        if(window.scrollY > 2500 && window.scrollY < 5900){
+        if(window.scrollY > 2402 && window.scrollY < 8324){
             contents.style.color = "white";
             two.style.color = "white";
         } else{
@@ -412,7 +426,7 @@
             contents.style.color = "grey";
         }
         //3
-        if(window.scrollY > 5900 && window.scrollY < 13925){
+        if(window.scrollY > 8324){
             three.style.color = "black";
         } else{
             three.style.color = "grey";

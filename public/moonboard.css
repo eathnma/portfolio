@@ -1,3 +1,16 @@
+/* color */
+#white06 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#white08 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#white {
+  color: white;
+}
+
 .moonboard-body {
   width: 100vw;
   height: auto;
@@ -5,17 +18,15 @@
 }
 
 .home-moonboard {
-  width: 100vw;
-  height: auto;
+  height: 80vh;
   /* padding: 2%; */
 
-  /* background: url("../public/assets/workestra/hero-image.png") no-repeat center
-    center;
+  background: url("../public/assets/moonboard/home.png") no-repeat center center;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
 }
 
 #mono {
@@ -83,6 +94,13 @@
   color: white;
 }
 
+.moonboard-background h2 {
+  font-family: New-Rail-Alphabet;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: white;
+}
+
 .moonboard-background h4 {
   font-family: New-Rail-Alphabet;
   font-weight: 200;
@@ -101,4 +119,33 @@
   font-weight: 300;
   font-size: 1.1em;
   color: white;
+}
+
+/* all footer styling */
+
+footer {
+  background-color: #0d1524;
+}
+
+footer a {
+  color: white;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer h3 {
+  color: white;
+}
+footer h4 {
+  color: white;
+}
+
+.section-top {
+  border-top: 0.1em solid rgba(255, 255, 255, 0.1);
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.1);
+}
+.section {
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.1);
 }

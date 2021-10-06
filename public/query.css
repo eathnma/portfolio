@@ -37,6 +37,10 @@
 
   /* CASE STUDY */
   /* get rid of sidebar */
+  #border {
+    border-radius: 0.5em;
+  }
+
   .side-bar {
     display: none;
   }

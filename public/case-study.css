@@ -1,3 +1,16 @@
+/* color */
+#white06 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#white08 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#black06 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 /* img styling  */
 body,
 html {

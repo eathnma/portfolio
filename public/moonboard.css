@@ -18,10 +18,10 @@
 }
 
 .home-moonboard {
-  height: 90vh;
+  /* height: 90vh; */
   /* padding: 2%; */
 
-  background: url("../public/assets/moonboard/home.png") no-repeat center center;
+  background: url("../public/assets/moonboard/home.png") center center;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

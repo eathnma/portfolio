@@ -188,3 +188,25 @@
     grid-column-end: 23;
   }
 }
+
+/* XTRA LARGE */
+@media (min-width: 1600px) {
+  .main-content {
+    grid-column-start: 10;
+    grid-column-end: 22;
+  }
+  #solution {
+    grid-column-start: 10;
+    grid-column-end: 22;
+  }
+
+  .footer h5 {
+    grid-column-start: 10;
+    grid-column-end: 22;
+  }
+
+  .footer div {
+    grid-column-start: 10;
+    grid-column-end: 22;
+  }
+}

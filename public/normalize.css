@@ -81,11 +81,11 @@
 
 ::-moz-selection {
   /* Code for Firefox */
-  background: #fcfc00;
+  /* background: #fcfc00; */
 }
 
 ::selection {
-  background: #fcfc00;
+  /* background: #fcfc00; */
 }
 
 body,

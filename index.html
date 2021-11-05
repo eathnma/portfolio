@@ -30,21 +30,33 @@
 </head>
 
 <body id="main-body">
-
+    <!-- <body> -->
     <video autoplay muted loop id="myVideo">
         <source type="video/mp4"> 
     </video>
-
+    
     <div class="container">
-        <div class="content-block" style="padding-top: 3em">
-            <h3 >Ethan Ma</h3>
+        <div class="content-block" style="padding-top: 6em">
+            <h3>Ethan Ma</h3>
         </div>
     
         <div class="content-block margin-top-lv05">
             <h5>Designer & Developer</h5>
-            <h5 id="white" class="second-row">About</h5>
+            <h5 id="about" class="about second-row" onclick="showAbout()">About</h5>
         </div>
-        
+
+        <div id="container-main">
+            <h2 id="about-content" class="about-content-style">
+                I’m Ethan, an digital designer and web developer based in Vancouver BC. I specialize in designing in spaces 
+                that allow for emerging technology, to establish new interaction design patterns. In doing so, I ultimately 
+                strive to create sustainable solutions designed for the future. When not stressing over pixels or pulling my 
+                hair out from coding, you can find me on a local BC mountain, either climbing or cycling.
+                <br><br>
+                I am currently a senior at Simon Fraser University, studying at the School of Interactive 
+                Arts and Technology with a concentration in design. 
+                <br><br>
+                I am seeking for 2021 internship positions.
+            </h2>
         <div id="workestra" class="content-block margin-top-lv10 margin-bottom-lv8">
             <a href="./public/views/workestra.html">
             <div class="hover-cursor">
@@ -57,7 +69,6 @@
             </video>
         </a>
                
-                <!-- <img src="public/assets/main/workestra-hd.mp4" alt="workestra hehe"> -->
             <h5 class="second-row">Interaction Design</h5>
         </div>
 
@@ -95,7 +106,6 @@
             <a href="./public/views/gleam.html">
             <div class="hover-cursor">
                 <h5 class="sup-replace margin-bottom-lv1" style="color: rgba(255, 255, 255, 0.2)">2021</h5>
-                <!-- <h1><span class="strike">Gleam — A Visual Assistant for Self Driving Vehicles</span><sup class="strike-color">2021</sup></h1> -->
                 <h1><span class="strike">Gleam — A Visual Assistant for Self Driving Vehicles</span><sup class="strike-color">2021</sup></h1>
                 
                 <p class="strike-color margin-top-lv2">In Progress : <span id="date"></span></p>
@@ -107,6 +117,8 @@
 
             <h5 class="strike-color second-row">Interaction Design</h5>
         </div>
+    </div>
+
 
         <div class="content-block margin-top-lv16 margin-bottom-lv5">
             <div class="flex">
@@ -129,6 +141,43 @@
     </div>
 
     <script>
+
+        // project mapping
+        var workestra = document.getElementById("workestra");
+        var moonboard = document.getElementById("moonboard");
+        var upTop = document.getElementById("up-top");
+        var gleam = document.getElementById("gleam");
+
+        // about button
+        var about = document.getElementById("about");
+        var aboutContent = document.getElementById("about-content");
+
+        
+        function showAbout(){
+            var aboutText = document.getElementById("about").innerHTML;
+            console.log(aboutText);
+
+            if(aboutText === "About"){
+                workestra.style.display = "none";
+                moonboard.style.display = "none";
+                upTop.style.display = "none";
+                gleam.style.display = "none";
+
+                aboutContent.style.display = "block";
+                about.innerHTML = "Back to Work";
+                console.log("about switch");
+            }
+            
+           else if(aboutText === "Back to Work"){
+                about.innerHTML = "About";
+                aboutContent.style.display = "none";
+
+                workestra.style.display = "grid";
+                moonboard.style.display = "grid";
+                upTop.style.display = "grid";
+                gleam.style.display = "grid";
+            }
+        }
 
         var grabVideo = document.getElementById("myVideo");
 
@@ -163,7 +212,6 @@
         });
         
         
-    
         // set js to countdown for project due
         var countDownDate = new Date ("Oct 17, 2021 15:37:25").getTime();
 
@@ -183,16 +231,11 @@
             // if expired, write something
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                // document.getElementById("demo").innerHTML = "EXPIRED";
             }
 
         },1000);
     </script>
-    <!-- JS for timestamp on bottom left -->
-    <!-- <script type="text/javascript" src="public/js/time.js"></script> -->
-
-    <!-- JS for anything mouse related -->
-    <!-- <script type="text/javascript" src="public/js/mouse.js"> </script> -->
 </body>
 
 </html>

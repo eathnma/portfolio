@@ -45,9 +45,6 @@
   margin: auto;
   /* max-height: 100%; */
   overflow: auto;
-
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 .container::-webkit-scrollbar {
@@ -63,7 +60,7 @@
 }
 
 .mobile-video {
-  width: 90vw;
+  width: 98%;
   height: auto;
 }
 

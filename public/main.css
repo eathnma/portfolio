@@ -52,8 +52,9 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  position: absolute;
+  /* position: fixed; */
   /* display: inline-block; */
+
   max-width: 100vw;
   overflow-x: hidden;
 }
@@ -66,7 +67,7 @@ body {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  /* position: fixed; */
+  position: fixed;
   /* min-width: 40em; */
 }
 

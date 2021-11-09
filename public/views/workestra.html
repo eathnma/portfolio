@@ -433,13 +433,11 @@
 
      <!-- JS for Video behaviour -->
      <script src="../js/video.js"></script>
+     <!-- <script src="../js/scroll.js"></script> -->
 
     <script>
     
-    // dear recruiters, please do not look at this buttonPress function, for it is the ugliest code i have ever 
-    // written in my entire life. I swear im better than this haha.....
     function buttonPress(btn){
-
     var oneButton= document.getElementById("oneButton");
     var twoButton = document.getElementById("twoButton");
     var threeButton = document.getElementById("threeButton");
@@ -493,7 +491,6 @@
         }
     }
 
-
     // CONTENT CHANGES
     // get variables from the context bar
     var contents = document.getElementById("contents");
@@ -502,9 +499,19 @@
     var three = document.getElementById("three");
     var four = document.getElementById("four");
 
+    // console.log("outside of scroll");
+    // console.log(window.scrollY);
+    // window.addEventListener("scroll", () => {
+    //     console.log("does scroll fire?");
+
+    // });
+    window.onscroll = function (e) {  
+        console.log(window.scrollY);
+    } 
     // check scroll position of website & return number
     window.addEventListener("scroll", () => {
         console.log(window.scrollY);
+        console.log("scrolling");
         // 1
         if (window.scrollY < 2500) {
             console.log("switch content!");
@@ -533,10 +540,6 @@
             four.style.color = "grey";
         }
     });
-
-
-  
-
     </script>
 </body>
 
